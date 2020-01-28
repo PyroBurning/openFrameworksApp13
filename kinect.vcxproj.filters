@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\src\ofxKinectV2.cpp">
+			<Filter>addons\ofxKinectV2-master\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\allocator.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\command_transaction.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\cpu_depth_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\depth_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\depth_packet_stream_parser.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\event_loop.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\flextGL.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\frame_listener_impl.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\libfreenect2.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\logging.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\opencl_depth_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\opencl_kde_depth_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\opengl_depth_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\packet_pipeline.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\registration.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\resource.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\rgb_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\rgb_packet_stream_parser.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\transfer_pool.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\turbo_jpeg_rgb_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\usb_control.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\vt_rgb_packet_processor.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxKinectV2-master\libs\protonect\src\ofProtonect.cpp">
+			<Filter>addons\ofxKinectV2-master\libs\protonect\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master">
+			<UniqueIdentifier>{670C6769-1BB2-199C-399B-C3B4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\src">
+			<UniqueIdentifier>{CF591270-699B-977C-7477-05B0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs">
+			<UniqueIdentifier>{B7DA20AB-4721-5BE8-1914-C071}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2">
+			<UniqueIdentifier>{5BFD7425-4CF9-553E-3004-F950}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include">
+			<UniqueIdentifier>{616F2811-A840-63D5-9721-E396}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include\internal">
+			<UniqueIdentifier>{7B16C8C9-9F63-3B06-3E5C-B212}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include\internal\CL">
+			<UniqueIdentifier>{7702DE05-806E-6623-9BE9-00F4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2">
+			<UniqueIdentifier>{64D9BAB0-CABC-0E91-B5C7-2C01}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol">
+			<UniqueIdentifier>{B63F824C-3871-6DCB-8539-8D78}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\usb">
+			<UniqueIdentifier>{B1F84C44-0F09-8D64-606C-CCF0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2">
+			<UniqueIdentifier>{CB6C1575-989A-5A3E-FED0-7958}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libfreenect2\src">
+			<UniqueIdentifier>{B177A3A0-3D6A-B317-460B-A13C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libturbojpeg">
+			<UniqueIdentifier>{0FF305B3-8B65-CC48-287D-FD88}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libturbojpeg\include">
+			<UniqueIdentifier>{04F1C892-5DDF-67F8-188F-2744}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libusb">
+			<UniqueIdentifier>{9BAFEE2D-28BE-13B3-F3C6-B80D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libusb\include">
+			<UniqueIdentifier>{FE15F7EE-63A9-7B4F-4476-647A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libusb\include\libusb">
+			<UniqueIdentifier>{CA8E6635-92A6-837A-E3CE-A573}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\libusb\include\libusb\os">
+			<UniqueIdentifier>{102052EC-3C29-8188-9E25-2F99}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\opencl">
+			<UniqueIdentifier>{A58109E7-CF23-0B05-566B-2AA9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\opencl\include">
+			<UniqueIdentifier>{338442CA-EE9B-608D-5906-12C0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\opencl\include\CL">
+			<UniqueIdentifier>{CD7A7FAB-FB75-2272-577B-A322}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\protonect">
+			<UniqueIdentifier>{4481BF9D-8A61-7DBE-495F-CD9A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxKinectV2-master\libs\protonect\src">
+			<UniqueIdentifier>{F3A8128F-DBA8-A2A7-6CAB-4D27}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\src\ofxKinectV2.h">
+			<Filter>addons\ofxKinectV2-master\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\CL\cl.hpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\allocator.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\async_packet_processor.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\data_callback.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\depth_packet_processor.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\depth_packet_stream_parser.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\logging.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\packet_processor.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol\command.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol\command_transaction.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol\response.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol\usb_control.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\protocol</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\resource.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\rgb_packet_processor.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\rgb_packet_stream_parser.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\threading.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\usb\event_loop.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\usb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\usb\transfer_pool.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\internal\libfreenect2\usb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\color_settings.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\config.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\export.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\frame_listener.hpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\frame_listener_impl.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\led_settings.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\libfreenect2.hpp">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\logger.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\packet_pipeline.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\registration.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2\resources.inc.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\include\libfreenect2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libfreenect2\src\flextGL.h">
+			<Filter>addons\ofxKinectV2-master\libs\libfreenect2\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libturbojpeg\include\turbojpeg.h">
+			<Filter>addons\ofxKinectV2-master\libs\libturbojpeg\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\hotplug.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\libusb.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\libusbi.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\darwin_usb.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\linux_usbfs.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\poll_posix.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\poll_windows.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\threads_posix.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\threads_windows.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\wince_usb.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\windows_common.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\os\windows_usb.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\version.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\libusb\include\libusb\version_nano.h">
+			<Filter>addons\ofxKinectV2-master\libs\libusb\include\libusb</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl.hpp">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_d3d10.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_d3d10_ext.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_d3d11.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_d3d11_ext.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_d3d9_ext.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_dx9_media_sharing.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_egl.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_ext.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_gl.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_gl_ext.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\cl_platform.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\opencl\include\CL\opencl.h">
+			<Filter>addons\ofxKinectV2-master\libs\opencl\include\CL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxKinectV2-master\libs\protonect\src\ofProtonect.h">
+			<Filter>addons\ofxKinectV2-master\libs\protonect\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
